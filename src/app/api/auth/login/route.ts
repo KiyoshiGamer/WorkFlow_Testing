@@ -3,7 +3,7 @@ import crypto from "node:crypto";
 
 /**
  * User Login API Route Handler
- * [TEST-1] Implement User Authentication
+ * [TEST-3] Login Testing
  * 
  * Acceptance Criteria Fulfilled:
  * - Validate user email and password
