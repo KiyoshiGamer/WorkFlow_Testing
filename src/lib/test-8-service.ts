@@ -1,6 +1,6 @@
 /**
  * [TEST-8] Add a sidebar navigation for all the pages
- * Invoke Antigravity CLI to implement code in local workspace
+ * Add a sidebar navigation for all the pages
  */
 
 export interface TEST8Config {
