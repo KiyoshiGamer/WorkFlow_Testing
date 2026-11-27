@@ -5,7 +5,7 @@ import Link from "next/link";
 
 /**
  * Static Inventory & Asset Management Dashboard
- * [TEST-4] Create a static Dashboard Like an inventory
+ * [TEST-4] Update the dashboard it should be not like that cause its the same as in the inventory page
  * 
  * Acceptance Criteria Fulfilled:
  * - Summary KPI metric cards: Total Products, Total Valuation, Low Stock, Out of Stock
