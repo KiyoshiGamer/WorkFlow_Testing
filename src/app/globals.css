@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* [TEST-9] Change the color theme into green for the entire page */
+@layer base {
+  :root {
+    --background: 140 20% 99%;
+    --foreground: 145 60% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 145 60% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 145 60% 10%;
+    --primary: 142.1 76.2% 36.3%;
+    --primary-foreground: 355.7 100% 97.3%;
+    --secondary: 138 76% 94%;
+    --secondary-foreground: 142 76% 30%;
+    --muted: 138 30% 95%;
+    --muted-foreground: 140 20% 40%;
+    --accent: 138 76% 92%;
+    --accent-foreground: 142 76% 25%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 140 30% 88%;
+    --input: 140 30% 88%;
+    --ring: 142.1 76.2% 36.3%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 150 40% 6%;
+    --foreground: 140 20% 98%;
+    --card: 150 40% 8%;
+    --card-foreground: 140 20% 98%;
+    --popover: 150 40% 8%;
+    --popover-foreground: 140 20% 98%;
+    --primary: 142.1 70.6% 45.3%;
+    --primary-foreground: 144.9 80.4% 10%;
+    --secondary: 145 30% 18%;
+    --secondary-foreground: 140 20% 98%;
+    --muted: 145 30% 15%;
+    --muted-foreground: 140 20% 70%;
+    --accent: 145 30% 20%;
+    --accent-foreground: 140 20% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 140 20% 98%;
+    --border: 145 30% 20%;
+    --input: 145 30% 20%;
+    --ring: 142.1 70.6% 45.3%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
