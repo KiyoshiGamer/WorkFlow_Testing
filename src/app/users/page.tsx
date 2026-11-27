@@ -4,7 +4,7 @@ import React, { useState, useMemo } from "react";
 
 /**
  * User & Team Directory Page
- * [${packet.jiraIssueId}] ${packet.jiraIssueTitle}
+ * [TEST-10] User management page
  */
 
 interface UserMember {
@@ -44,7 +44,7 @@ export default function UsersManagementPage() {
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 pb-4 border-b border-slate-200 dark:border-slate-800">
         <div>
           <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-purple-100 text-purple-800 dark:bg-purple-900/60 dark:text-purple-200">
-            [${packet.jiraIssueId}] Users & Team
+            [TEST-10] Users & Team
           </span>
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight mt-1 text-slate-900 dark:text-white">
             Team Management
