@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 
 /**
  * User Login Interface Page
- * [TEST-12] Display the sidebar navigation across the app
+ * [TEST-15] Add sales page
  * 
  * Acceptance Criteria Fulfilled:
  * - Display email and password fields
