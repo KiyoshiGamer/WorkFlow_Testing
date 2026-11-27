@@ -5,7 +5,7 @@ import Link from "next/link";
 
 /**
  * Sales & Transactions Management Page
- * [${packet.jiraIssueId}] ${packet.jiraIssueTitle}
+ * [TEST-15] Add sales page
  * 
  * Acceptance Criteria Fulfilled:
  * - Revenue, Order volume, Average order value, and conversion metric cards
@@ -93,7 +93,7 @@ export default function SalesPage() {
         <div>
           <div className="flex items-center gap-2">
             <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-100 text-blue-800 dark:bg-blue-900/60 dark:text-blue-200">
-              [${packet.jiraIssueId}] Sales Management
+              [TEST-15] Sales Management
             </span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight mt-1 text-slate-900 dark:text-white">

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 /**
  * Product Catalog & Management Page
- * [${packet.jiraIssueId}] ${packet.jiraIssueTitle}
+ * [TEST-14] Add product page
  * 
  * Acceptance Criteria Fulfilled:
  * - Product catalog list with search and category filtering
@@ -94,7 +94,7 @@ export default function ProductsPage() {
         <div>
           <div className="flex items-center gap-2">
             <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-200">
-              [${packet.jiraIssueId}] Product Catalog
+              [TEST-14] Product Catalog
             </span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight mt-1 text-slate-900 dark:text-white">
